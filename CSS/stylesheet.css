@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#grid{
+	display: grid;
+	grid-template-columns: 25vw 25vw 25vw;
+	margin: 0 auto;
+	grid-column-gap: 1vw;
+	height: 100vh;
+	width: 75vw;
+}
+
+#column1{
+	grid-column-start: 1;
+	grid-column-end: 1;
+}
+
+#column2{
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
+
+#column3{
+	grid-column-start: 3;
+	grid-column-end: 3;
+}
+
+.images{
+	margin-bottom: 2vh;
+	width: 25vw;
+	transition: 0.5s;
+}
+
+.active{
+	
+}
+
+.remove1{
+	display: none;
+}
+
+.remove2{
+	display: none;
+}
+
+.remove3{
+	display: none;
+}
+
+#image1{
+	background-color: red;
+	height: 20vh;
+}
+
+#image2{
+	background-color: yellow;
+	height: 40vh;
+}
+
+#image3{
+	background-color: blue;
+	height: 60vh;
+}
+
+#image4{
+	background-color: green;
+	height: 60vh;
+}
+
+#image5{
+	background-color: orange;
+	height: 25vh;
+}
+
+#image6{
+	background-color: pink;
+	height: 50vh;
+}
+
+#image7{
+	background-color: purple;
+	height: 80vh;
+}
+
+#image8{
+	background-color: brown;
+	height: 65vh;
+}
+
+#image9{
+	background-color: gray;
+	height: 55vh;
+}
+
+#buttons > div{
+	display: inline-block;
+}
